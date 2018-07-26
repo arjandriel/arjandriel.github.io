@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutoTrimpsV2
 // @version      2.1.6.9b-genbtc-4-2-2018
-// @updateURL    https://github.com/genbtc/AutoTrimps/AutoTrimps2.js
+// @updateURL    https://github.com/arjandriel/AutoTrimps/AutoTrimps2.js
 // @description  Automate all the trimps!
 // @author       zininzinin, spindrjr, belaith, ishakaru, genBTC, Unihedron, coderPatsy
 // @include      *trimps.github.io*
@@ -15,7 +15,7 @@ var ATversion = '2.1.6.9b-genbtc-4-2-2018';
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////
 var atscript = document.getElementById('AutoTrimps-script')
-  , basepath = 'https://genBTC.github.io/AutoTrimps/'
+  , basepath = 'https://arjandriel.github.io/AutoTrimps/'
   , modulepath = 'modules/'
   ;
 //This should redirect the script to wherever its being mirrored from.
@@ -86,7 +86,7 @@ function printChangelog() {
     var footer =
         '<b>Ongoing Development</b> - <u>Report any bugs/problems please</u>!\
         <br>Talk with the dev: <b>genr8_#8163</b> @ <a target="#" href="https://discord.gg/0VbWe0dxB9kIfV2C">AutoTrimps Discord Channel</a>\
-        <br>See<a target="#" href="https://github.com/genbtc/AutoTrimps/blob/gh-pages/README.md">ReadMe</a> Or check <a target="#" href="https://github.com/genBTC/AutoTrimps/commits/gh-pages" target="#">the commit history</a> (if you want).'
+        <br>See<a target="#" href="https://github.com/arjandriel/AutoTrimps/blob/gh-pages/README.md">ReadMe</a> Or check <a target="#" href="https://github.com/arjandriel/AutoTrimps/commits/gh-pages" target="#">the commit history</a> (if you want).'
     ,   action = 'cancelTooltip()'
     ,   title = 'Script Update Notice<br>' + ATversion
     ,   acceptBtnText = "Thank you for playing AutoTrimps. Accept and Continue."
